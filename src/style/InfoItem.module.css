@@ -1,0 +1,24 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    padding: 12px 15px;
+    background: none;
+    border: 3px solid #aaa;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 20px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #aaa;
+    border: 3px solid transparent;
+}
